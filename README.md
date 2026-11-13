@@ -64,6 +64,10 @@ alapján.
 
 1. lépés: Nyiss egy Parancssort (Terminált), és lépj be a projekt mappájába:
 ```bash
+git clone https://github.com/szdaniel13/dulo_analizis.git
+```
+
+```bash
 cd dulo_analizis
 ```
 
