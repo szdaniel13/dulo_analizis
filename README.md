@@ -1,4 +1,4 @@
-# Dűlő Analízis projekt (dulo-analizis)
+# Dűlő Analízis projekt (dulo_analizis)
 
 ---
 
@@ -63,19 +63,19 @@ az összes szükséges csomaggal a környezetet leíró 'environment.yml' fájl
 alapján.
 
 1. lépés: Nyiss egy Parancssort (Terminált), és lépj be a projekt mappájába:
-    """bash
-    cd dulo-analizis
-    """
+```bash
+cd dulo-analizis
+```
 
 2. lépés: Virtuális környezet létrehozása:
-    """ bash
-    conda env create -f environment.yml
-    """
+```bash
+conda env create -f environment.yml
+```
 
 3. Létrehozott környezet aktiválása:
-    """ bash
-    conda activate dulo_analizis_env
-    """
+```bash
+conda activate dulo_analizis_env
+```
 
 
 ### Telepítés hagyományos Python és pip segítségével
@@ -84,33 +84,33 @@ Conda használata nélkül is létrehozható egy normál Python virtuális körn
 majd a szükséges függőségek telepíthetők a 'requirements.txt' fájl alapján.
 
 1. lépés: Nyiss egy Parancssort (Terminált), és lépj be a projekt mappájába:
-    """bash
+    ```bash
     cd dulo-analizis
-    """
+    ```
 
 2. lépés: Virtuális környezet létrehozása (nem kötelező, de erősen ajánlott):
-   * Windows esetében:
-    """ bash
-    python -m venv venv
-    venv\Scripts\activate
-    """
+* Windows esetében:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
 
-   * macOS / Linux esetében:
-    """ bash
-    python3 -m venv venv
-    source venv/bin/activate
-    """
+* macOS / Linux esetében:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 
 3. Telepítsd a szükséges csomagokat:
-   * Windows esetében:
-    """ bash
-    pip install -r requirements.txt
-    """
+* Windows esetében:
+```bash
+pip install -r requirements.txt
+```
 
    * macOS / Linux esetében:
-    """ bash
+    ```bash
     pip3 install -r requirements.txt
-    """
+    ```
 
 ### config.py
 
