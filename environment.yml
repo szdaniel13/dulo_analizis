@@ -1,0 +1,19 @@
+name: dulo_analizis_env
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - numpy=2.5.3
+  - whitebox=2.3.6
+  - richdem=2.4.3
+  - geopandas=1.2.0
+  - pandas=3.0.6
+  - rasterio=1.5.2
+  - pyproj=3.8.0
+  - rasterstats=0.21.0
+  - pytz=2026.4
+  - gdal=3.13.3
+  - pytest=9.2.0
+  - pyogrio=0.13.0
