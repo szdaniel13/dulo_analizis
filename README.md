@@ -64,7 +64,7 @@ alapján.
 
 1. lépés: Nyiss egy Parancssort (Terminált), és lépj be a projekt mappájába:
 ```bash
-cd dulo-analizis
+cd dulo_analizis
 ```
 
 2. lépés: Virtuális környezet létrehozása:
@@ -84,9 +84,9 @@ Conda használata nélkül is létrehozható egy normál Python virtuális körn
 majd a szükséges függőségek telepíthetők a 'requirements.txt' fájl alapján.
 
 1. lépés: Nyiss egy Parancssort (Terminált), és lépj be a projekt mappájába:
-    ```bash
-    cd dulo-analizis
-    ```
+```bash
+cd dulo_analizis
+```
 
 2. lépés: Virtuális környezet létrehozása (nem kötelező, de erősen ajánlott):
 * Windows esetében:
@@ -107,10 +107,10 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-   * macOS / Linux esetében:
-    ```bash
-    pip3 install -r requirements.txt
-    ```
+* macOS / Linux esetében:
+```bash
+pip3 install -r requirements.txt
+```
 
 ### config.py
 
