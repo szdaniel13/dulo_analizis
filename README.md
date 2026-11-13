@@ -73,7 +73,7 @@ cd dulo_analizis
 
 2. lépés: Virtuális környezet létrehozása:
 ```bash
-conda env create -f environment.yml
+conda env create -f environment.yml -y
 ```
 
 3. Létrehozott környezet aktiválása:
