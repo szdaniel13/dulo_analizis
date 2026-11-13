@@ -165,9 +165,9 @@ A fontosabb átnézendő értékek:
 ### Futtatás
 Miután létrejött és aktiválásra került a környezet, valamint a config.py 
 beállításai megtörténtek a kód futtatható a következő paranccsal:
-""" bash
+```bash
 python main.py
-"""
+```
 
 ---
 
